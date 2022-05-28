@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hospital.Controles.CadastrarConsultaEmergenciaController">
+   <children>
+      <ListView fx:id="lista" layoutX="207.0" layoutY="56.0" prefHeight="330.0" prefWidth="379.0" />
+      <Label layoutX="14.0" layoutY="10.0" prefHeight="36.0" prefWidth="360.0" text="Selecione um horário para marcar a consulta">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Button layoutX="20.0" layoutY="356.0" mnemonicParsing="false" onAction="#Sair" prefHeight="30.0" prefWidth="166.0" text="Voltar" />
+      <Button layoutX="20.0" layoutY="316.0" mnemonicParsing="false" onAction="#cadastrarConsulta" prefHeight="30.0" prefWidth="166.0" text="Cadastrar consulta" />
+      <ComboBox fx:id="paciente" layoutX="20.0" layoutY="56.0" prefHeight="25.0" prefWidth="166.0" promptText="Selecione um paciente" />
+   </children>
+</AnchorPane>

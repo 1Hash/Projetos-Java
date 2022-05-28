@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.web.*?>
+<?import javafx.collections.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.collections.FXCollections?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hospital.Controles.CadastroMedicoController">
+   <children>
+      <Label layoutX="42.0" layoutY="65.0" prefHeight="27.0" prefWidth="57.0" text="Nome:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="nome" layoutX="191.0" layoutY="69.0" prefHeight="25.0" prefWidth="290.0" />
+      <TextField fx:id="endereco" layoutX="191.0" layoutY="102.0" prefHeight="25.0" prefWidth="290.0" />
+      <Label layoutX="42.0" layoutY="98.0" prefHeight="27.0" prefWidth="65.0" text="Endereco:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="cpf" layoutX="191.0" layoutY="135.0" prefHeight="25.0" prefWidth="290.0" />
+      <Label layoutX="42.0" layoutY="131.0" prefHeight="27.0" prefWidth="57.0" text="CPF:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="telefone" layoutX="191.0" layoutY="202.0" prefHeight="25.0" prefWidth="290.0" />
+      <Label layoutX="42.0" layoutY="165.0" prefHeight="27.0" prefWidth="149.0" text="Data de Nascimento:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="email" layoutX="191.0" layoutY="237.0" prefHeight="25.0" prefWidth="290.0" />
+      <Label layoutX="42.0" layoutY="199.0" prefHeight="27.0" prefWidth="57.0" text="Telefone:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="login" layoutX="191.0" layoutY="270.0" prefHeight="25.0" prefWidth="290.0" />
+      <Label layoutX="42.0" layoutY="233.0" prefHeight="27.0" prefWidth="57.0" text="E-mail:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="senha" layoutX="191.0" layoutY="303.0" prefHeight="25.0" prefWidth="290.0" />
+      <Label layoutX="42.0" layoutY="266.0" prefHeight="27.0" prefWidth="57.0" text="Usuario:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="42.0" layoutY="299.0" prefHeight="27.0" prefWidth="57.0" text="Senha:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Button layoutX="42.0" layoutY="366.0" mnemonicParsing="false" onAction="#botaoCadastrar" prefHeight="25.0" prefWidth="82.0" text="Cadastrar" />
+      <Button layoutX="136.0" layoutY="366.0" mnemonicParsing="false" onAction="#botaoVoltar" prefHeight="25.0" prefWidth="82.0" text="Voltar" />
+      <Label layoutX="183.0" prefHeight="34.0" prefWidth="237.0" text="CADASTRO DE MÉDICO" textAlignment="CENTER">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="191.0" layoutY="166.0" prefHeight="27.0" prefWidth="57.0" text="Dia:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="274.0" layoutY="165.0" prefHeight="27.0" prefWidth="57.0" text="Mes:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="dia" layoutX="228.0" layoutY="167.0" prefHeight="25.0" prefWidth="36.0" />
+      <TextField fx:id="mes" layoutX="313.0" layoutY="167.0" prefHeight="25.0" prefWidth="36.0" />
+      <Label layoutX="364.0" layoutY="166.0" prefHeight="27.0" prefWidth="57.0" text="Ano:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="ano" layoutX="399.0" layoutY="167.0" prefHeight="25.0" prefWidth="82.0" />
+      <Label fx:id="cadastrado" layoutX="349.0" layoutY="366.0" prefHeight="25.0" prefWidth="237.0" textFill="#d00e0e" />
+      <TextField fx:id="crm" layoutX="191.0" layoutY="38.0" prefHeight="25.0" prefWidth="290.0" />
+      <Label layoutX="42.0" layoutY="34.0" prefHeight="27.0" prefWidth="57.0" text="CRM:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="42.0" layoutY="331.0" prefHeight="27.0" prefWidth="57.0" text="Periodo:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <ComboBox fx:id="periodo" layoutX="191.0" layoutY="335.0" prefHeight="25.0" prefWidth="290.0" promptText="Periodo" />
+   </children>
+</AnchorPane>

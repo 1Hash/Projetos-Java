@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hospital.Controles.LoginController">
+   <children>
+      <Label id="textoLogin" cache="true" layoutX="168.0" layoutY="157.0" prefHeight="27.0" prefWidth="87.0" text="LOGIN">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Button id="botaoEntrar" fx:id="entrar" cache="true" graphicTextGap="0.0" layoutX="168.0" layoutY="286.0" mnemonicParsing="false" onAction="#processEntrar" prefHeight="39.0" prefWidth="265.0" text="Entrar" textOverrun="CLIP">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <font>
+            <Font size="18.0" />
+         </font></Button>
+      <Label id="textoSenha" cache="true" layoutX="168.0" layoutY="217.0" prefHeight="25.0" prefWidth="75.0" text="SENHA">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField id="campoLogin" fx:id="login" cache="true" layoutX="240.0" layoutY="158.0" prefHeight="25.0" prefWidth="193.0" />
+      <Label cache="true" layoutX="121.0" layoutY="45.0" prefHeight="46.0" prefWidth="298.0" text="HOSPITAL EL" textAlignment="CENTER" textFill="WHITE" textOverrun="CLIP">
+         <font>
+            <Font name="Franklin Gothic Medium" size="49.0" />
+         </font>
+         <effect>
+            <DropShadow blurType="ONE_PASS_BOX" color="#d71f1f" height="27.03" radius="13.2925" spread="1.0" width="28.14" />
+         </effect>
+      </Label>
+      <Label id="label12" fx:id="erro" layoutX="168.0" layoutY="255.0" prefHeight="17.0" prefWidth="265.0" textFill="#c30e0e" />
+      <PasswordField id="campoSenha" fx:id="senha" cache="true" layoutX="240.0" layoutY="218.0" prefHeight="25.0" prefWidth="193.0" />
+      <ImageView cache="true" fitHeight="105.0" fitWidth="93.0" layoutX="435.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@hospital.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

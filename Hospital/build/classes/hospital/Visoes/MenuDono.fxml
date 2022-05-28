@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hospital.Controles.MenuDonoController">
+    <children>
+        <Button fx:id="cadastrarFuncionario" layoutX="180.0" layoutY="127.0" mnemonicParsing="false" onAction="#cadastrarFuncionario" prefHeight="37.0" prefWidth="240.0" text="CADASTRAR FUNCIONARIO" />
+        <Button fx:id="gerarAtendimentos" layoutX="180.0" layoutY="174.0" mnemonicParsing="false" onAction="#gerarAtendimentos" prefHeight="37.0" prefWidth="240.0" text="CRIAR ROTINA DE TESTE" />
+        <Button fx:id="totalRendimentos" layoutX="180.0" layoutY="221.0" mnemonicParsing="false" onAction="#totalRendimentos" prefHeight="37.0" prefWidth="240.0" text="RENDIMENTO TOTAL" />
+        <Button fx:id="listarMedicos" layoutX="180.0" layoutY="269.0" mnemonicParsing="false" onAction="#listarMedicos" prefHeight="37.0" prefWidth="240.0" text="LISTAR MEDICOS" />
+        <Button fx:id="listarConsultasDoDia" layoutX="180.0" layoutY="314.0" mnemonicParsing="false" onAction="#listarConsultasDoDia" prefHeight="37.0" prefWidth="240.0" text="LISTAR CONSULTAS" />
+        <Button fx:id="Sair" layoutX="23.0" layoutY="361.0" mnemonicParsing="false" onAction="#Sair" prefHeight="17.0" prefWidth="67.0" text="SAIR" />
+        <Label fx:id="logado" alignment="TOP_CENTER" layoutX="400.0" layoutY="366.0" prefHeight="16.0" prefWidth="178.0" text="Logado como Administrador" textAlignment="CENTER">
+            <font>
+                <Font name="Arial" size="14.0" />
+            </font>
+        </Label>
+        <Label layoutX="121.0" layoutY="45.0" prefHeight="46.0" prefWidth="298.0" text="HOSPITAL EL" textAlignment="CENTER" textFill="WHITE" textOverrun="CLIP">
+            <font>
+                <Font name="Franklin Gothic Medium" size="49.0" />
+            </font>
+            <effect>
+                <DropShadow blurType="ONE_PASS_BOX" color="#d71f1f" height="27.03" radius="13.2925" spread="1.0" width="28.14" />
+            </effect>
+        </Label>
+        <ImageView fitHeight="105.0" fitWidth="93.0" layoutX="435.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@hospital.png" />
+            </image>
+        </ImageView>
+    </children>
+</AnchorPane>
