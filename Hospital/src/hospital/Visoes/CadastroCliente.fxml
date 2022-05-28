@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.web.*?>
+<?import javafx.collections.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.collections.FXCollections?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hospital.Controles.CadastroClienteController">
+   <children>
+      <Label layoutX="53.0" layoutY="43.0" prefHeight="27.0" prefWidth="57.0" text="Nome:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="nome" layoutX="202.0" layoutY="47.0" prefHeight="25.0" prefWidth="290.0" />
+      <TextField fx:id="endereco" layoutX="202.0" layoutY="80.0" prefHeight="25.0" prefWidth="290.0" />
+      <Label layoutX="53.0" layoutY="76.0" prefHeight="27.0" prefWidth="65.0" text="Endereco:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="cpf" layoutX="202.0" layoutY="113.0" prefHeight="25.0" prefWidth="290.0" />
+      <Label layoutX="53.0" layoutY="109.0" prefHeight="27.0" prefWidth="57.0" text="CPF:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="telefone" layoutX="202.0" layoutY="180.0" prefHeight="25.0" prefWidth="290.0" />
+      <Label layoutX="53.0" layoutY="143.0" prefHeight="27.0" prefWidth="149.0" text="Data de Nascimento:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="email" layoutX="203.0" layoutY="241.0" prefHeight="25.0" prefWidth="290.0" />
+      <Label layoutX="53.0" layoutY="177.0" prefHeight="27.0" prefWidth="57.0" text="Telefone:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="login" layoutX="203.0" layoutY="274.0" prefHeight="25.0" prefWidth="290.0" />
+      <Label layoutX="54.0" layoutY="237.0" prefHeight="27.0" prefWidth="57.0" text="E-mail:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="senha" layoutX="203.0" layoutY="307.0" prefHeight="25.0" prefWidth="290.0" />
+      <Label layoutX="54.0" layoutY="270.0" prefHeight="27.0" prefWidth="57.0" text="Usuario:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="54.0" layoutY="303.0" prefHeight="27.0" prefWidth="57.0" text="Senha:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Button layoutX="40.0" layoutY="352.0" mnemonicParsing="false" onAction="#botaoCadastrar" prefHeight="34.0" prefWidth="82.0" text="Cadastrar" />
+      <Button layoutX="148.0" layoutY="352.0" mnemonicParsing="false" onAction="#botaoVoltar" prefHeight="34.0" prefWidth="82.0" text="Voltar" />
+      <Label layoutX="182.0" layoutY="14.0" prefHeight="34.0" prefWidth="237.0" text="CADASTRO DE CLIENTE" textAlignment="CENTER">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="202.0" layoutY="144.0" prefHeight="27.0" prefWidth="57.0" text="Dia:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="285.0" layoutY="143.0" prefHeight="27.0" prefWidth="57.0" text="Mes:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="dia" layoutX="239.0" layoutY="145.0" prefHeight="25.0" prefWidth="36.0" />
+      <TextField fx:id="mes" layoutX="324.0" layoutY="145.0" prefHeight="25.0" prefWidth="36.0" />
+      <Label layoutX="375.0" layoutY="144.0" prefHeight="27.0" prefWidth="57.0" text="Ano:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="ano" layoutX="410.0" layoutY="145.0" prefHeight="25.0" prefWidth="82.0" />
+      <Label fx:id="cadastrado" layoutX="301.0" layoutY="357.0" prefHeight="25.0" prefWidth="237.0" textFill="#d00e0e" />
+      <Label layoutX="53.0" layoutY="206.0" prefHeight="27.0" prefWidth="110.0" text="Plano de saúde:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <ComboBox fx:id="planoSaude" layoutX="203.0" layoutY="210.0" prefHeight="25.0" prefWidth="290.0" promptText="Selecione" />
+   </children>
+</AnchorPane>

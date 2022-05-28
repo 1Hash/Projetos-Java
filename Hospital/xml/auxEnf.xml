@@ -1,0 +1,32 @@
+<list>
+  <hospital.Modelos.AuxiliarEnfermagem>
+    <nome>Patricia Santos</nome>
+    <endereco>Av. Vereador Toaldo Tulio, 2589</endereco>
+    <cpf>501.831.264-29</cpf>
+    <dtNasc>
+      <dia>7</dia>
+      <mes>11</mes>
+      <ano>1992</ano>
+    </dtNasc>
+    <telefone>(41)9453-5788</telefone>
+    <email>adrianagorski@outlook.com</email>
+    <login>auxEnf1</login>
+    <senha>senha1</senha>
+    <periodo>0</periodo>
+  </hospital.Modelos.AuxiliarEnfermagem>
+  <hospital.Modelos.AuxiliarEnfermagem>
+    <nome>Patrick da Silva Soares</nome>
+    <endereco>Av. Vereador Toaldo Tulio, 2589</endereco>
+    <cpf>501.831.264-29</cpf>
+    <dtNasc>
+      <dia>7</dia>
+      <mes>11</mes>
+      <ano>1992</ano>
+    </dtNasc>
+    <telefone>(41)9453-5788</telefone>
+    <email>adrianagorski@outlook.com</email>
+    <login>auxEnf2</login>
+    <senha>senha2</senha>
+    <periodo>0</periodo>
+  </hospital.Modelos.AuxiliarEnfermagem>
+</list>

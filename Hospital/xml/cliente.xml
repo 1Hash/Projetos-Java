@@ -1,0 +1,72 @@
+<list>
+  <hospital.Controles.Cliente>
+    <nome>Kamilla Kailer Nogueira</nome>
+    <endereco>Rua Rio Catasaltas, 159</endereco>
+    <cpf>190.887.867-80</cpf>
+    <dtNasc>
+      <dia>9</dia>
+      <mes>4</mes>
+      <ano>1996</ano>
+    </dtNasc>
+    <telefone>(41)9953-9228</telefone>
+    <email>kailer2011@live.com</email>
+    <login>cli1</login>
+    <senha>senha1</senha>
+  </hospital.Controles.Cliente>
+  <hospital.Controles.Cliente>
+    <nome>João Aparecido dos Santos</nome>
+    <endereco>Rua Pernalonga, 25</endereco>
+    <cpf>290.187.767-10</cpf>
+    <dtNasc>
+      <dia>21</dia>
+      <mes>7</mes>
+      <ano>1993</ano>
+    </dtNasc>
+    <telefone>(44)9253-8528</telefone>
+    <email>joaosantos@hotmail.com</email>
+    <login>cli2</login>
+    <senha>senha2</senha>
+  </hospital.Controles.Cliente>
+  <hospital.Controles.Cliente>
+    <nome>Rosa Margarida Peixoto</nome>
+    <endereco>Av. Cristalina, 1029</endereco>
+    <cpf>090.885.167-30</cpf>
+    <dtNasc>
+      <dia>10</dia>
+      <mes>11</mes>
+      <ano>1984</ano>
+    </dtNasc>
+    <telefone>(42)9777-2328</telefone>
+    <email>margarida_rosa@gmail.com</email>
+    <login>cli3</login>
+    <senha>senha3</senha>
+  </hospital.Controles.Cliente>
+  <hospital.Controles.Cliente>
+    <nome>Eduardo da Silva Costa Junior</nome>
+    <endereco>Rua Mateus Leme, 423</endereco>
+    <cpf>100.817.767-90</cpf>
+    <dtNasc>
+      <dia>24</dia>
+      <mes>1</mes>
+      <ano>1995</ano>
+    </dtNasc>
+    <telefone>(41)3024-9228</telefone>
+    <email>edursjunior@yahoo.com.br</email>
+    <login>cli4</login>
+    <senha>senha4</senha>
+  </hospital.Controles.Cliente>
+  <hospital.Controles.Cliente>
+    <nome>Maria Camargo Fonseca</nome>
+    <endereco>Av. Vereador Toaldo Tulio, 2589</endereco>
+    <cpf>501.831.264-29</cpf>
+    <dtNasc>
+      <dia>7</dia>
+      <mes>11</mes>
+      <ano>1992</ano>
+    </dtNasc>
+    <telefone>(41)9453-5788</telefone>
+    <email>mariaaaa@outlook.com</email>
+    <login>cli5</login>
+    <senha>senha5</senha>
+  </hospital.Controles.Cliente>
+</list>
